@@ -61,3 +61,39 @@ h1 {
     margin-right: 17%;
     font-family: 'Ultra', serif;
 }
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.svg-icon-profile{
+    
+}
+
+.svg-icon-like{
+    
+}
+
+nav ul li {
+    position: relative;
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a{
+    display: block;
+}
+
+nav ul li a:hover{
+    color: rgb(21, 6, 233);
+}
+
+/* nav ul ul {
+    display: none;
+} */
+
+nav ul li:hover > ul {
+    display: block;
+}
