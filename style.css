@@ -34,6 +34,18 @@
     height: 50px;
 }
 
+.main-drp-column{
+    display: block;
+    min-width: 100px;
+    border: 1px solid black;
+    padding: 2px;
+}
+
+.main-drp-column li {
+    display: block;
+    text-decoration: none;
+}
+
 .main-header-nav-menu-link:hover {
     color: rgb(34, 24, 173);
     transition: .7s;
@@ -76,24 +88,3 @@ h1 {
     
 }
 
-nav ul li {
-    position: relative;
-    list-style: none;
-    display: inline-block;
-}
-
-nav ul li a{
-    display: block;
-}
-
-nav ul li a:hover{
-    color: rgb(21, 6, 233);
-}
-
-/* nav ul ul {
-    display: none;
-} */
-
-nav ul li:hover > ul {
-    display: block;
-}
