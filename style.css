@@ -24,46 +24,29 @@
     margin-top: 15px;
 }
 
-.main-header-nav-menu-item {
-    float: left;
-}
-
-.main-header-nav-menu-item:hover {
-    color: rgb(24, 8, 238);
-    transition: .7s;
-    height: 50px;
-}
-
-.main-drp-column{
-    display: block;
-    min-width: 100px;
-    border: 1px solid black;
-    padding: 2px;
-}
-
-.main-drp-column li {
-    display: block;
-    text-decoration: none;
-}
-
-.main-header-nav-menu-link:hover {
-    color: rgb(34, 24, 173);
-    transition: .7s;
-}
-
-li a {
+.dropdown {
     display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+}
+
+.dropdown:hover .dropdown-content{
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    display: inline;
     color: rgb(3, 2, 2);
     padding: 14px 16px;
     text-decoration: none;
     font-family: 'Lato', sans-serif;
-}
 
-li a:hover{
-    display: inline-block;
-    color: rgb(21, 6, 233);
-    padding: 14px 16px;
-    text-decoration: none;
+    &:hover {
+        color: rgb(21, 6, 233);
+    }
 }
 
 h1 {
