@@ -7,7 +7,7 @@
     /* display: flex;
     justify-content: center;   */ 
     display: grid;
-    grid-template-columns: 30% 60% 10%;
+    grid-template-columns: 25% 60% 10%;
     margin: 0 25px;
 }
 
@@ -18,7 +18,8 @@
 .main-header-nav {
     display: flex;
     align-items: center;
-    justify-content: center;    
+    justify-content: center; 
+    margin-right: 200px;   
 }
 
 .main-header-nav-menu {
@@ -44,8 +45,9 @@
 .dropdown-cars:hover .dropdown-content-cars{
     display: flex;
     flex-direction: column;
-    width: 100px;
-}
+    /* width: 100px; */
+    position: fixed;
+    }
 
 .dropdown-upgrades{
     display: inline-block;
@@ -53,12 +55,13 @@
 
 .dropdown-content-upgrades{
     display: none;
-    width: 105px;
+    width: 100px;
 }
 
 .dropdown-upgrades:hover .dropdown-content-upgrades{
     display: flex;
     flex-direction: column;
+    position: fixed;
 }
 
 a {
