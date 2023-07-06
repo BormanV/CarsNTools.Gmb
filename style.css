@@ -1,4 +1,4 @@
-.main-header{
+.main-header {
     
 }
 
@@ -34,7 +34,7 @@
 
 .dropdown-cars {
     display: inline-block;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .dropdown-content-cars {
@@ -42,23 +42,22 @@
     width: 100px;
 }
 
-.dropdown-cars:hover .dropdown-content-cars{
+.dropdown-cars:hover .dropdown-content-cars {
     display: flex;
     flex-direction: column;
-    /* width: 100px; */
     position: fixed;
     }
 
-.dropdown-upgrades{
+.dropdown-upgrades {
     display: inline-block;
 }
 
-.dropdown-content-upgrades{
+.dropdown-content-upgrades {
     display: none;
     width: 100px;
 }
 
-.dropdown-upgrades:hover .dropdown-content-upgrades{
+.dropdown-upgrades:hover .dropdown-content-upgrades {
     display: flex;
     flex-direction: column;
     position: fixed;
