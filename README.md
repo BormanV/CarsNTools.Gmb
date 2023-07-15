@@ -10,9 +10,9 @@ Here you can:
 + Upgrade new car
 
 ## What do you need for this:
-- [x] understanding in cars
-- [x] be a car lover
-- [x] love car upgades 
+- [x] Understanding in cars
+- [x] Be a car lover
+- [x] Love car upgades 
 
 ## :hammer_and_wrench: Technologies
 [![My Skills](https://skillicons.dev/icons?i=html,css)](https://skillicons.dev)
