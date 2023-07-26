@@ -92,7 +92,16 @@ h1 {
     width: 25px;
 }
 
+.carousel {
+    position: relative;
+}
 
+.Slides {
+    position: absolute;
+}
 
+img {
+    
+}
 
 
