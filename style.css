@@ -112,7 +112,6 @@ h1 {
     border: none;
     margin-top: 180px;
     opacity: 0.5;
-    
 }
 
 .buttons:hover {
@@ -139,6 +138,7 @@ img {
     background-color: rgb(30, 31, 30);
     border: none;
     cursor: pointer;
+    border-radius: 20px;
 }
 
 .right {
@@ -147,6 +147,7 @@ img {
     background-color: rgb(30, 31, 30);
     border: none;
     cursor: pointer;
+    border-radius: 20px;
 }
 
 .model-1 {
@@ -154,10 +155,99 @@ img {
     position: absolute;
     bottom: 8px;
     left: 16px;
-    background-color: rgb(241, 235, 227);
-    padding: 4px;
+    background-color: rgb(25, 25, 24);
+    color: rgb(255, 255, 255);
+    padding: 7px;
     margin: 3%;
     cursor: pointer;
+    border-radius: 20px;
+    opacity: 0.5;
+
+    &:hover {
+        opacity: 1;
+        background-color: rgb(241, 235, 227);
+        color: rgb(0, 0, 0);
+    }
 }
 
+.model-2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(4, 4, 4);
+    padding: 7px;
+    margin: 3%;
+    cursor: pointer;
+    border-radius: 20px;
+    border: solid 1px black;
 
+    &:hover {
+        opacity: 1;
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+    }
+}
+
+.model-3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    background-color: rgb(218, 221, 245);
+    color: rgb(4, 4, 4);
+    padding: 7px;
+    margin: 3%;
+    cursor: pointer;
+    border-radius: 20px;
+
+    &:hover {
+        opacity: 1;
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        border: solid 1px rgb(255, 255, 255);
+    }
+}
+
+.model-4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    background-color: rgb(232, 236, 175);
+    color: rgb(41, 96, 39);
+    padding: 7px;
+    margin: 3%;
+    cursor: pointer;
+    border-radius: 20px;
+    border: solid 1px rgb(41, 96, 39);
+
+    &:hover {
+        opacity: 1;
+        background-color: rgb(41, 96, 39);
+        color:rgb(232, 236, 175);
+        border: solid 1px rgb(255, 255, 255);
+    }
+}
+
+.model-5 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    background-color: rgb(182, 5, 5);
+    color: rgba(220, 195, 5, 0.868);
+    padding: 7px;
+    margin: 3%;
+    cursor: pointer;
+    border-radius: 20px;
+    border: solid 1px rgb(0, 0, 0);
+
+    &:hover {
+        opacity: 1;
+        background-color: rgb(206, 5, 5);
+        color:rgb(255, 255, 255);
+        border: solid 1px rgb(0, 0, 0);
+    }
+}
