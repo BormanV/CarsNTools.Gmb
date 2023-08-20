@@ -4,15 +4,15 @@
 ### This site is for car lovers. Choose your car and upgrade it by your own.
 
 Here you can:
-+ buy new car
-+ buy car of your teenage period
-+ upgrade you own car
-+ upgrade new car
++ Buy new car
++ Buy car of your teenage period
++ Upgrade you own car
++ Upgrade new car
 
 ## What do you need for this:
-- [x] understanding in cars
-- [x] be a car lover
-- [x] love car upgades 
+- [x] Understanding in cars
+- [x] Be a car lover
+- [x] Love car upgades 
 
 ## :hammer_and_wrench: Technologies
 [![My Skills](https://skillicons.dev/icons?i=html,css)](https://skillicons.dev)

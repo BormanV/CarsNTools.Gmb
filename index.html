@@ -50,7 +50,72 @@
             </div>
         </div>
     </header>
-    
+    <section class="carousel">       
+                    
+      <div class="Slides">
+        <img src="https://www.slashgear.com/img/gallery/15-awesome-90s-cars-that-people-forget-about/nissan-300zx-1646074237.jpg" >
+        <div class="model-1">
+            Nissan 300zx
+        </div>
+      </div>
+      
+      <div class="Slides">
+        <img src="https://www.nissan-global.com/EN/HERITAGE/img/thumbs/254_Nissan_300ZX_Twin-turbo_2-seater_T-bar_Roof.jpg" >
+        <div class="model-2">
+            Nissan 300ZX Twin-turbo
+        </div>
+      </div>
+      
+      <div class="Slides">
+        <img src="https://www.desperateseller.co.uk/media/twtpsgmp/bmw-3-series-e36-3.jpg">
+        <div class="model-3">
+          BMW e36
+        </div>
+      </div>
+      
+      <div class="Slides">
+        <img src="https://www.retromotor.co.uk/wp-content/uploads/2020/10/001-1990-Lotus-Carlton.jpg" >
+        <div class="model-4">
+            Opel-Lotus
+        </div>
+      </div>
+      
+      <div class="Slides">
+        <img src="https://cdn.carbuzz.com/gallery-images/1600/1022000/500/1022576.jpg">
+        <div class="model-5">
+          C126 
+        </div>
+      </div>
+      
+      <div class="buttons">
+        <button class="left" onclick="plusDivs(-1)">&#10096;</button>
+        <button class="right" onclick="plusDivs(1)">&#10097;</button>
+      </div>
+      </div>
+      
+      <script>
+      var slideIndex = 1;
+      showDivs(slideIndex);
+      
+      function plusDivs(n) {
+        showDivs(slideIndex += n);
+      }
+      
+      function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("Slides");
+        if (n > x.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = x.length}
+        for (i = 0; i < x.length; i++) {
+           x[i].style.display = "none";  
+        }
+        x[slideIndex-1].style.display = "block";  
+      }
+      </script>
+      
+      
+</section>
+
 </body>
 
 </html>
