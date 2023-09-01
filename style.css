@@ -255,3 +255,40 @@ img {
     }
 }
 
+.photocontent {
+    margin-top: 300px;
+}
+
+h2 {
+    display: flex;
+    justify-content:center;
+    font-size:30px;
+  }
+  
+p {
+    display: flex;
+    justify-content:center;
+  }
+  
+.line {
+    width: 25%;
+    margin: 15px auto;
+    border-width: 2px;
+    border-style: solid ;
+    color:#5FBACC;
+    border-radius: 5px;
+  }
+  
+.short-photo-view {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin: auto;
+    padding: 0 5px;
+    max-width: 800px;
+  }
+  
+.short-photo-view img {
+    max-width: 340px;
+    height: 280px;
+  }
