@@ -292,3 +292,29 @@ p {
     max-width: 340px;
     height: 280px;
   }
+
+  .medium-photo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 0 2px;
+    width:910px;
+    height:650px;
+  }
+
+  .internal-text1 {
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;*/
+    position: absolute;
+    
+}
+
+.internal-text2 {
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;*/
+    position: absolute;
+    
+    right: 37px;
+    /*padding: 7px;
+    margin: 5%;
+    cursor: pointer;
+    font-size:40px; */
+}
