@@ -294,27 +294,28 @@ p {
   }
 
   .medium-photo {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 50px;
-    padding: 0 2px;
-    width:910px;
-    height:650px;
+    display: grid;
+    grid-template-columns: 960px 960px;
+    /* grid-column-gap: 1px; */
+    margin-top: 100px;
+    padding: 0 10px;
   }
+ 
+  .medium-photo img {
+    width: 900px;
+    height: 495px;
+  } 
 
   .internal-text1 {
-    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;*/
     position: absolute;
-    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    left: 40px;    
 }
 
 .internal-text2 {
-    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     position: absolute;
-    
+    font-size: 35px;
     right: 37px;
-    /*padding: 7px;
-    margin: 5%;
-    cursor: pointer;
-    font-size:40px; */
 }
