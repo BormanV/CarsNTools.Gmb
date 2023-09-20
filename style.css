@@ -327,10 +327,11 @@ p {
 }
 
 .widepicture {
+    position: relative;
     width: 100%;
 }
 
-#wp {
+.wp {
     width: 1895px;
     height: 790px;
 }
@@ -339,6 +340,19 @@ p {
     position: absolute;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
-    left: 40px;  
+    bottom: 20px;
+    /* left: 40px;   */
 }
 
+span {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+button {
+    border: none;
+    background-color: #dc143c;
+    color: #fff;
+    font-size: 25px;
+    padding: 5px;
+}
