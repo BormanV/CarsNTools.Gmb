@@ -131,8 +131,8 @@ h1 {
 }
 
 img {
-    max-width: 1300px;
-    max-height: 500px;
+    max-width: 1900px;
+    max-height: 800px;
 }
 
 .left {
@@ -327,10 +327,18 @@ p {
 }
 
 .widepicture {
-
+    width: 100%;
 }
 
-.widepicture img {
-    width: 1980px;
-    height: 1080px;
+#wp {
+    width: 1895px;
+    height: 790px;
 }
+
+.internal-text3 {
+    position: absolute;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    left: 40px;  
+}
+
