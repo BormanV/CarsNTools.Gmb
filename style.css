@@ -334,6 +334,7 @@ p {
 .wp {
     width: 1895px;
     height: 790px;
+    
 }
 
 .internal-text3 {
@@ -342,7 +343,7 @@ p {
     font-size: 30px;
     bottom: 20px;
     color:#dc143c;
-    margin: 0 0 450px 110px;
+    margin: 0 0 300px 90px;
 }
 
 span {
@@ -350,11 +351,18 @@ span {
     font-size: 20px;
 }
 
-button {
+.testdrive-button {
+    position: absolute;
     border: none;
     background-color: #dc143c;
     color: #fff;
     font-size: 25px;
-    padding: 5px;
-    margin: 0 0 410px 90px;
+    transform: translate(50%, -310px);
+    -ms-transform: translate(-50%, -50%);
+
+        &:hover { 
+        background-color: #f50736;
+        color: #fff;
+        cursor: pointer;
+        }
 }
