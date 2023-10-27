@@ -131,8 +131,8 @@ h1 {
 }
 
 img {
-    max-width: 1300px;
-    max-height: 500px;
+    max-width: 1900px;
+    max-height: 800px;
 }
 
 .left {
@@ -292,3 +292,83 @@ p {
     max-width: 340px;
     height: 280px;
   }
+
+  .medium-photo {
+    display: grid;
+    grid-template-columns: 960px 960px;
+    grid-column-gap: 1px;
+    margin: 100px 0 0 0;
+    padding: 0 5px;
+  }
+ 
+  .medium-photo img {
+    width: 920px;
+    height: 495px;
+  } 
+
+ .medium-photo a { 
+    width: 900px;
+    padding: 0;
+    margin: 0;
+ } 
+
+.internal-text1 {
+    position: absolute;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    left: 40px;    
+}
+
+.internal-text2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    font-size: 35px;
+    right: 87px;
+}
+
+.widepicture {
+    position: relative;
+    width: 100%;
+}
+
+.wp {
+    width: 1895px;
+    height: 800px;
+    
+}
+
+.internal-text3 {
+    position: absolute;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    bottom: 20px;
+    color:#dc143c;
+    margin: 0 0 300px 90px;
+}
+
+span {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.testdrive-button {
+    position: absolute;
+    border: none;
+    background-color: #f50736;
+    color: #fff;
+    font-size: 25px;
+    transform: translate(50%, -310px);
+    -ms-transform: translate(-50%, -50%);
+    border-radius: 5px;
+    transition: 0.5s;
+    
+
+        &:hover { 
+        background-color: #b90b2ee5;
+        color: #fff;
+        cursor: pointer;
+        transition: 0.5s;
+        opacity: 0.9
+        }
+}
+
