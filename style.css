@@ -372,3 +372,21 @@ span {
         }
 }
 
+.three-photo {
+    display: grid;
+    grid-template-columns: 585px 585px 585px;
+    grid-column-gap: 1px;
+    margin: 100px 0 0 0;
+    padding: 0 5px;
+}
+
+.three-photo img {
+    width: 580px;
+    height: 530px;
+  } 
+
+.three-photo a {
+    width: 520px;
+    padding: 0;
+    margin: 0;
+}  
