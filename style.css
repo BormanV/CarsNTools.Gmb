@@ -381,7 +381,7 @@ span {
 }
 
 .three-photo img {
-    width: 580px;
+    width: 560px;
     height: 530px;
   } 
 
@@ -390,3 +390,33 @@ span {
     padding: 0;
     margin: 0;
 }  
+
+.cart-pic img {
+    
+    height: 35px;
+    width: 35px;
+    transform:translate(500px,-510px);
+    transition: 0.5s;
+
+        &:hover {
+            padding: 5px;
+            border-radius: 50%;
+            background-color: #fff;
+            transition: 0.5s;
+        }
+}
+
+.cart-pic-b img{
+    visibility: hidden;
+    height: 35px;
+    width: 35px;
+    transform:translate(500px,-510px);
+    transition: 0.5s;
+
+        &:hover {
+            padding: 5px;
+            border-radius: 50%;
+            background-color: #f33e3e;
+            transition: 0.5s;
+        }
+}
