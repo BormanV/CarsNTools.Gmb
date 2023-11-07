@@ -374,6 +374,7 @@ span {
 
 .three-photo {
     display: grid;
+    justify-content: space-around;
     grid-template-columns: 585px 585px 585px;
     grid-column-gap: 1px;
     margin: 100px 0 0 0;
@@ -381,8 +382,8 @@ span {
 }
 
 .three-photo img {
-    width: 560px;
-    height: 530px;
+    width: 600px;
+    height: 570px;
   } 
 
 .three-photo a {
@@ -395,28 +396,38 @@ span {
     
     height: 35px;
     width: 35px;
-    transform:translate(500px,-510px);
-    transition: 0.5s;
+    transform:translate(530px,-540px);
+    transition: 0.3s;
+    opacity: 0.7;
 
         &:hover {
+            
             padding: 5px;
             border-radius: 50%;
             background-color: #fff;
-            transition: 0.5s;
+            transition: 0.3s;
         }
 }
 
 .cart-pic-b img{
-    visibility: hidden;
+    /* visibility: hidden; */
     height: 35px;
     width: 35px;
-    transform:translate(500px,-510px);
-    transition: 0.5s;
+    transform:translate(530px,-540px);
+    transition: 0.3s;
+    opacity: 0.7;
 
         &:hover {
+            
             padding: 5px;
             border-radius: 50%;
             background-color: #f33e3e;
-            transition: 0.5s;
+            transition: 0.3s;
         }
+}
+
+.c-t {
+    font-size: 12px;
+    transform:translate(550px,-500px);
+    transition: 0.3s;
 }
