@@ -393,15 +393,12 @@ span {
 }  
 
 .cart-pic img {
-    
     height: 35px;
     width: 35px;
     transform:translate(530px,-540px);
     transition: 0.3s;
-    opacity: 0.7;
 
         &:hover {
-            
             padding: 5px;
             border-radius: 50%;
             background-color: #fff;
@@ -410,24 +407,32 @@ span {
 }
 
 .cart-pic-b img{
-    /* visibility: hidden; */
     height: 35px;
     width: 35px;
     transform:translate(530px,-540px);
     transition: 0.3s;
-    opacity: 0.7;
 
         &:hover {
-            
             padding: 5px;
             border-radius: 50%;
             background-color: #f33e3e;
             transition: 0.3s;
+            
         }
 }
 
+.c {
+    transform:translate(390px,-570px);
+    border: solid 1px black;
+    width: 100px;
+    padding: 2px 5px;
+    display: flex;
+    justify-content: center;
+}
+
 .c-t {
-    font-size: 12px;
-    transform:translate(550px,-500px);
-    transition: 0.3s;
+    
+    /*font-size: 12px;
+    transform:translate(550px,-200px);
+    transition: 0.3s; */
 }
