@@ -20,6 +20,14 @@
     align-items: center;
     justify-content: center; 
     margin-right: 200px;   
+    
+}
+
+.main-header-nav a {
+    /* background-color: grey; */
+    padding: 2px 10px 3px 1px;
+    width: 120px;
+    text-align: center;
 }
 
 .main-header-nav-menu {
@@ -30,6 +38,8 @@
     border: none;
     font-size: 18px;
     margin-top: 15px;
+
+    
 }
 
 .dropdown-cars {
