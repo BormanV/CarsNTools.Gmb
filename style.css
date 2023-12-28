@@ -499,3 +499,16 @@ a {
     font-size: 20px;
     text-shadow: -1px 0 rgb(0, 0, 0), 0 1px rgb(0, 0, 0), 1px 0 rgb(0, 0, 0), 0 -1px rgb(0, 0, 0);
 }
+
+.three-photo-underphoto {
+    text-align: center;
+}
+  
+.tpu-btn {
+    border: none;
+    width: 130px;
+    height: 30px;
+    text-transform: uppercase;
+    background-color: #F2F2F2;
+    
+}
