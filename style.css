@@ -634,3 +634,25 @@ a {
  margin:0px;
 }
 */
+
+.heading > h2 {
+    color: #000000;
+    font-family: "Lato", Sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 38px;
+}
+
+.heading > p {
+    border: 0;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
