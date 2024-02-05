@@ -601,7 +601,7 @@ a {
 .item-b-content {
         position: absolute;
         color:rgb(255, 200, 1);
-        text-shadow: -1px 0 rgb(0, 0, 0), 0 1px rgb(0, 0, 0), 1px 0 rgb(0, 0, 0), 0 -1px rgb(0, 0, 0);
+        text-shadow: -2px 0 rgb(0, 0, 0), 0 2px rgb(0, 0, 0), 2px 0 rgb(0, 0, 0), 0 -2px rgb(0, 0, 0);
         bottom:35%;
         left:40%;
         text-align:center;  
@@ -628,9 +628,9 @@ a {
     text-shadow: -1px 0 #fec527, 0 1px #fec527, 1px 0 #fec527, 0 -1px #fec527;
 
         &:hover {
-            background-color: #302222;
-            color: rgb(240, 118, 36);
-            text-shadow: -1px 0 rgb(0, 0, 0), 0 1px rgb(0, 0, 0), 1px 0 rgb(0, 0, 0), 0 -1px rgb(0, 0, 0);
+        background-color: #302222;
+        color: rgb(240, 118, 36);
+        text-shadow: -1px 0 rgb(0, 0, 0), 0 1px rgb(0, 0, 0), 1px 0 rgb(0, 0, 0), 0 -1px rgb(0, 0, 0);
         }
 }
 
