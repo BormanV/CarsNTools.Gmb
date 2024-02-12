@@ -624,12 +624,12 @@ a {
     text-align: center;
     font-size: 22px;
     transition: all .3s;
-    background-color: #fec527;
-    color: #034bdc;
+    background-color: #f3b60edc;
+    color: #746767;
     text-shadow: -1px 0 #fec527, 0 1px #fec527, 1px 0 #fec527, 0 -1px #fec527;
 
         &:hover {
-        background-color: #302222;
+        background-color: #302222d3;
         color: #fec527;
         text-shadow: -1px 0 rgb(0, 0, 0), 0 1px rgb(0, 0, 0), 1px 0 rgb(0, 0, 0), 0 -1px rgb(0, 0, 0);
         }
