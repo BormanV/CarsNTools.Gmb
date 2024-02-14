@@ -591,18 +591,24 @@ a {
     width:60%; 
     float:left;
     margin:1% ; 
-    border: solid 1px black;   
+    /* border: solid 1px black;    */
     }
 
 .item-b > img {
     height:600px;
     width: 1100px; 
+    transition: 0.7s;
+
+        &:hover {
+            scale: 1.03;
+            transition: 0.7s;
+        }
 }
 
 .item-b-content {
         position: absolute;
         color:rgb(255, 200, 1);
-        text-shadow: -2px 0 rgb(0, 0, 0), 0 2px rgb(0, 0, 0), 2px 0 rgb(0, 0, 0), 0 -2px rgb(0, 0, 0);
+        text-shadow: -1px 0 rgb(0, 0, 0), 0 1px rgb(0, 0, 0), 1px 0 rgb(0, 0, 0), 0 -1px rgb(0, 0, 0);
         bottom:35%;
         left:40%;
         text-align:center;  
@@ -639,25 +645,34 @@ a {
 .item-s {  
     width:35%;
     height:290px;
-    float:right; 
-    margin:5px;
+    float:left; 
+    margin: 17px 3px 2px;
     position:relative;
-    border: solid 1px black;
+    /*border: solid 1px black;
+    top: 15px; */
     }
 
 .item-s > img {
-    height: 300px;
+    height: 290px;
     width: 600px;
+    transition: 0.7s;
+
+    &:hover {
+        scale: 1.03;
+        transition: 0.7s;
+    }
 }
 
 .item-s-content {
     position: absolute;
     color:rgb(255, 200, 1);
-    text-shadow: -2px 0 rgb(0, 0, 0), 0 2px rgb(0, 0, 0), 2px 0 rgb(0, 0, 0), 0 -2px rgb(0, 0, 0);
+    text-shadow: -1px 0 rgb(0, 0, 0), 0 1px rgb(0, 0, 0), 1px 0 rgb(0, 0, 0), 0 -1px rgb(0, 0, 0);
     bottom:20%;
-    left:45%;
+    left:40%;
     text-align:center; 
 }
+
+
 
 /*img {
     width:100%;   
@@ -689,4 +704,21 @@ a {
     vertical-align: baseline;
 }
 
-.
+.item-s-content > button {
+    border: none;
+    font-size: 15px;
+    padding: 12px 24px;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 22px;
+    transition: all .3s;
+    background-color: #f3b60edc;
+    color: #746767;
+    text-shadow: -1px 0 #fec527, 0 1px #fec527, 1px 0 #fec527, 0 -1px #fec527;
+
+        &:hover {
+        background-color: #302222d3;
+        color: #fec527;
+        text-shadow: -1px 0 rgb(0, 0, 0), 0 1px rgb(0, 0, 0), 1px 0 rgb(0, 0, 0), 0 -1px rgb(0, 0, 0);
+        }
+}
