@@ -715,7 +715,7 @@ a {
 }
 
 
-.footer {   
+.footer {
     display:flex;
     justify-content:center;
     background-color: black;
@@ -727,7 +727,8 @@ a {
     margin:20px 0 -8px -8px;
 }
 
-.footer-center {  
+.footer-center { 
+position: absolute; 
 display: flex;
 justify-content: space-between;
 width:1150px;
@@ -792,10 +793,10 @@ margin-right: 5px;
 
 .footer-line-hr {
     text-align: center;
-    width: 90px;
-    margin: 15px auto;
+    width: 1250px;
+    margin-top: 230px;
     border-width: 1px;
-    border-style: solid ;
-    color:#5FBACC;
+    border-style: solid;
+    color:rgb(240, 118, 36);
     border-radius: 5px;
 }
