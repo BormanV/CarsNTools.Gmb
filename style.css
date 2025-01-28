@@ -285,7 +285,7 @@ p {
     margin-top: 50px;
     margin: auto;
     padding: 0 5px;
-    max-width: 800px;
+    /*max-width: 800px;*/
   }
   
 .short-photo-view img {
