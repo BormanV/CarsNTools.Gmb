@@ -335,13 +335,15 @@ p {
     grid-template-columns: 960px 960px;
     grid-column-gap: 1px;
     margin: 100px 0 0 0;
-    padding: 0 5px;
-}
 
-.medium-photo img {
-    width: 920px;
-    height: 495px;
-} 
+    padding: 0 0px;
+  }
+ 
+  .medium-photo img {
+    width: 934px;
+    height: 540px;
+  } 
+
 
 .medium-photo a { 
     width: 900px;
